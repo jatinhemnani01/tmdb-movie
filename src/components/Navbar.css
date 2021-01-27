@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  background-color: #8e44ad;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin: 1em;
+  padding: 0.5em;
+  color: #f1deff;
+}

@@ -1,0 +1,45 @@
+.card {
+  width: 100%;
+  background-image: linear-gradient(#ff4331, #d31a50);
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  color: #f2e0ff;
+  transition: ease 0.2s;
+}
+.card:hover {
+  transform: scale(1.03);
+  padding: 0px;
+}
+
+.title {
+  text-align: center;
+  margin: 1em;
+  width: 100%;
+  font-size: 2em;
+}
+
+.release_date {
+  text-align: center;
+  font-size: 1.4em;
+  width: 100%;
+  margin: 1em;
+}
+
+.overview {
+  font-size: 1.1em;
+  text-align: center;
+  margin: 1em;
+}
+@media screen and (max-width: 480px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 690px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+}
