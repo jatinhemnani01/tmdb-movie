@@ -8,7 +8,6 @@ const Movies = () => {
   return (
     <div>
       <Navbar />
-      <h1>Movies</h1>
       {isLoading && "Loading..."}
       <div className="card-container">
         {data.map((movie) => {
